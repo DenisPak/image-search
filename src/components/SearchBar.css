@@ -1,0 +1,51 @@
+#searchbar {
+}
+
+label {
+  font-size: 5em;
+  font-family: "Caveat", cursive;
+}
+
+input {
+  max-width: 500px;
+  width: 95%;
+  margin: 50px 0;
+  height: 2.5rem;
+  border: none;
+  padding: 0 10px;
+
+  border-radius: 0.4rem;
+  transition: box-shadow 0.5s;
+}
+
+input:focus {
+  border-radius: 0.4rem;
+  box-shadow: 0.2rem 0.8rem 0.8rem #ccc;
+  outline: none;
+}
+
+@media only screen and (max-width: 992px) {
+  label {
+    font-size: 3em;
+  }
+  input {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  label {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  label {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 330px) {
+  label {
+    font-size: 2em;
+  }
+}

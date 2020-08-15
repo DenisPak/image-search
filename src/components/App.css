@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+  font-family: "Leckerli One", cursive;
+  padding: 200px 100px 0 100px;
+}
+
+.App {
+  padding: 50px 200px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1280px) {
+  .App {
+    padding: 50px 150px;
+  }
+  label {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .App {
+    padding: 50px 100px;
+  }
+  label {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .App {
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .App {
+    padding: 30px;
+  }
+}
